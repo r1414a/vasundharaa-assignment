@@ -15,11 +15,6 @@ export default function SpatialDataTable({ apiRef, rows = [], loading, paginatio
                 onRowClick={({ id }) => onRowSelect(id)}
                 paginationModel={paginationModel}
                 onPaginationModelChange={onPaginationChange}
-                initialState={{
-                    pagination: {
-                        paginationModel: { page: 0, pageSize: 10 },
-                    },
-                }}
                 disableRowSelectionOnClick
             />
         </div>

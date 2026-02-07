@@ -65,21 +65,6 @@ export default function RegistrationForm() {//Name, Email, User ID, Role (Admin/
                     <li>Should be 6-digit long.</li>
                 </ul>
             </div>
-                {/* <label className="text-sm font-medium">User ID</label>
-                <input
-                    type="text"
-                    name="userId"
-                    pattern="\d{6}"
-                    className="border border-[#b8b8b8] px-3 h-9 rounded-md placeholder:text-sm"
-                    value={fields.userId}
-                    onChange={handleChange}
-                    placeholder="678883"
-                    maxLength={6}
-                    title="Please enter a 6-digit User ID"
-                />
-
-                
-            </div> */}
 
             <div className="w-1/2 flex flex-col gap-1">
                 <label className="text-sm font-medium">Role</label>

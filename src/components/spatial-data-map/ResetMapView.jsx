@@ -9,7 +9,7 @@ export default function ResetMapView({center, zoom}){
             animate: true,
             duration: 1
         })
-    },center, zoom)
+    },[center, zoom])
 
     return null;
 }
