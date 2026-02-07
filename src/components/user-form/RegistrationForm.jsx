@@ -111,7 +111,7 @@ export default function RegistrationForm() {//Name, Email, User ID, Role (Admin/
                 name="password"
                 type={showPassword ? "text" : "password"}
                 value={fields.password}
-                placeholder=""
+                placeholder="P4sswo3d"
                 onChange={handleChange}
                 showToggle
                 onToggle={() => setShowPassword((p) => !p)}
@@ -123,7 +123,7 @@ export default function RegistrationForm() {//Name, Email, User ID, Role (Admin/
                 name="confirmPassword"
                 type={showConfirmPassword ? "text" : "password"}
                 value={fields.confirmPassword}
-                placeholder=""
+                placeholder="P4sswo3d"
                 onChange={handleChange}
                 showToggle
                 onToggle={() => setShowConfirmPassword((p) => !p)}
